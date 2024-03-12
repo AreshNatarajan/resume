@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            color: #213343;
+            background-color: rgb(247, 237, 223);
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+       
+        body section:first-child{
+            text-align: center;
+            height: 500px;
+            margin: 0 10% 0 10%;
+            
+            padding: 30px;
+            border-bottom: 3px solid #213343;
+        }
+        section:first-child .name{
+            margin-top: 200px;
+        }
+        section:first-child h4{
+            font-size: 100px;
+        }
+        section:first-child h5{
+            font-size: 30px;
+        }
+        
+        
+        body section:nth-child(3) .container{
+
+             display: grid;
+             grid-template-columns: repeat(2, 1fr);
+             margin: 40px 10% 0 10%;
+             row-gap: 20px;
+             column-gap: 30px;
+
+        }
+        body section:nth-child(3) .container .tow-box{
+            border: 0.5px solid #9cafc2;
+            box-shadow: 0 4px 8px 0 rgba(201, 89, 89, 0.2);
+            padding: 5px;
+            border-radius: 12px;
+            column-gap: 20px;
+            row-gap: 20px;
+
+        }
+
+        .tow-box h4{
+            
+            text-align: center;
+            font-size: 30px;
+            color: white;
+            background-color:#213343;
+            border-radius: 12px 12px 0px 0px;
+            padding: 20px;
+        }
+
+        .bi{
+            margin: 10px 0px 10px 40px;
+        }
+
+        @media (max-width:800px){
+            body section:first-child{
+                height: 300px;
+            }
+            
+            body section:first-child .name{
+                margin-top: 100px;
+            }
+            
+            body section:first-child h4{
+                font-size: 70px;
+            }
+            body section:first-child h5{
+                font-size: 30px;
+            }
+
+
+            body section:nth-child(3) .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+
+
+
+        }
+
+     
+
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">sd</a></li>
+                <li><a href="#">sd</a></li>
+                <li><a href="#">sd</a></li>
+                <li><a href="#">sd</a></li>
+            </ul>
+          </nav>
+        <div class="name">
+        <h4 >AreshKumar N</h4>
+        <h5 style="color: orangered;">Open to Work</h5>
+        </div>
+    </section>
+   
+    <section></section>
+
+    <section>
+      
+        <div class="container">
+             
+            <div class="tow-box">
+                <h4>Contact</h4>
+                 
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                  </svg><span></span>
+
+            </div>
+            <div class="tow-box">
+                <h4>Profile</h4>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    
+</body>
+</html>
